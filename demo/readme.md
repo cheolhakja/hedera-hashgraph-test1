@@ -3,8 +3,9 @@
 ### 실행방법
 * 공식 repo 클론
 ```
-git clone https://github.com/hashgraph/hedera-local-node.git
+mkdir hedera-local-node
 cd hedera-local-node
+git clone https://github.com/hashgraph/hedera-local-node.git
 docker compose up -d
 ```
 
@@ -79,5 +80,6 @@ node test.js //테스트용 로컬 헤데라 해쉬그래프의 operator지갑 �
 • 0.0.1001 ~ 0.0.1010: 테스트용으로 미리 만들어진 계정들 (보통 수천 HBAR가 들어있음)
 즉, 0.0.1002는 로컬 노드 환경에서 "아무나 가져다 쓸수잇게"  미리 던져준 계정 중 하나임. 그래서 코드에 이 주소를 넣었을 때 에러 없이 정산(HBAR 전송)이 성공했던 것임.
 ```
+
 
 
